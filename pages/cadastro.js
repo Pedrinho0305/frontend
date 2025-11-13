@@ -27,4 +27,7 @@ async function sendUser(){
     }).then(response => response.json())
 
     alert(response.message)
+
+
+    window.location.href = "../index.html"
 }
